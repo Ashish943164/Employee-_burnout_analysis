@@ -70,6 +70,8 @@ I am **Ashish Kumar**, a Data Science and AI enthusiast, passionate about **data
 - Histograms for numeric variables  
 
 *(Add more screenshots in `images/` folder and reference here for better visualization)*
+<img width="848" height="484" alt="image" src="https://github.com/user-attachments/assets/74d0513d-8dbc-4da7-966c-ee53720bf5fa" />
+
 
 ---
 
