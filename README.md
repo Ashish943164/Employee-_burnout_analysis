@@ -1,159 +1,84 @@
-📊 Employee Burnout Analysis Project
+# 🧑‍💼 Employee Burnout Analysis Project
 
-✨ Artificial Intelligence Internship Project ✨
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.5.3-blue?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.25.0-orange?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7.2-red?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-blueviolet?logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
 
-📌 Project Overview
+---
 
-🔹 Analysis of employee burnout patterns using workplace and mental health data
-🔹 Focus on key factors:
+## 👋 Introduction
+This project analyzes **employee burnout data** to identify patterns related to **mental fatigue, resource allocation, and work environment factors**.  
+Completed during my **internship at Edunate Foundation (Skills Build)**.
 
-Designation level
+## 👨‍💻 About Me
+**Ashish Kumar** – a passionate learner in **Data Science, AI, and Web Development**.  
+I focus on building **data-driven projects** that generate insights and visualization for decision-making.
 
-Mental fatigue score
+## 📊 Project Objective
+- Identify factors affecting **employee burnout**  
+- Analyze correlations between **Designation, Resource Allocation, Gender, Company Type, and Burn Rate**  
+- Visualize trends for actionable insights  
 
-Resource allocation
+## 🛠️ Technologies Used
+- **Python** – Data processing and analysis  
+- **Pandas & NumPy** – Data manipulation  
+- **Matplotlib & Seaborn** – Data visualization  
+- **Excel** – Dataset handling  
 
-Company type & gender
+## 📂 Dataset Overview
+- **Rows:** 22,750  
+- **Columns:** 9  
+- **Key Features:**  
+  - `Date of Joining` – Employee joining date  
+  - `Gender` – Male / Female  
+  - `Company Type` – Service / Product  
+  - `WFH Setup Available` – Yes / No  
+  - `Designation` – Employee level (0–5)  
+  - `Resource Allocation` – 1–10 scale  
+  - `Mental Fatigue Score` – 0–10 scale  
+  - `Burn Rate` – 0–1 scale  
 
-🎯 Goal: Identify major burnout contributors and support data-driven decision making
+### Dataset Cleaning
+- Removed missing values (`NaN`)  
+- Dropped duplicates (6 duplicate rows)  
+- Removed `Employee ID` for analysis  
 
-👤 Author Information
+## 🔍 Data Analysis & Insights
+- `Designation` is highly correlated with `Resource Allocation` (0.87)  
+- **Company Type Distribution:** Service: 12,174 | Product: 6,416  
+- **Gender Distribution:** Female: 9,747 | Male: 8,843  
 
-👨‍🎓 Name: Ashish Kumar
+## 📈 Visualizations
+### Sample Charts
+![Heatmap](./Portfolio_Screenshot.png)  
+- Heatmaps for missing values and correlations  
+- Bar charts for `Company Type` & `Gender` vs `Designation`  
+- Pie chart for gender distribution  
+- Histograms for key variables  
 
-👨‍👦 Father’s Name: Shambhu Pandit
+*(Add more screenshots in `images/` folder and reference here for better visualization)*
 
-🏫 University: Jagannath University, Jaipur
+## 🧩 How to Run Locally
+1. Clone the repository:
+```bash
+git clone https://github.com/Ashish943164/Portfolio.git
+Navigate to the project folder
 
-🏢 Internship: Edunate Foundation (Skills Build)
+Run employee_burnout_analysis.py or open in Jupyter Notebook
 
-🤖 Domain: Artificial Intelligence (AI)
+🔮 Future Improvements
+Predictive modeling for burnout risk using Machine Learning
 
-📘 Project: Employee Burnout Analysis Project
+Interactive dashboards for HR decision-making
 
+Incorporate more datasets for broader analysis
+
+📬 Contact
+Ashish Kumar
 📧 Email: ashishkumarmjl011@gmail.com
+💻 GitHub: Ashish943164
+🌐 Portfolio: https://ashish943164.github.io/Portfolio/
 
-📱 Mobile: +91 9431649783
-
-📊 Dataset Information
-
-📁 Initial Dataset Size: 22,750 rows × 9 columns
-
-🔑 Features
-
-🆔 Employee ID (removed during preprocessing)
-
-📅 Date of Joining
-
-👤 Gender (Male / Female)
-
-🏭 Company Type (Product / Service)
-
-🏠 WFH Setup Available (Yes / No)
-
-🎖 Designation (0–5)
-
-📦 Resource Allocation (1–10)
-
-🧠 Mental Fatigue Score (0–10)
-
-🔥 Burn Rate (0–1)
-
-🔧 Data Preprocessing
-
-✔ Checked missing values (4,622 total)
-✔ Removed rows with missing data
-✔ Dropped Employee ID column
-✔ Removed 6 duplicate records
-
-✅ Final Dataset: 18,590 rows × 8 columns
-
-📈 Exploratory Data Analysis
-📊 Descriptive Statistics
-
-🔥 Average Burn Rate: 0.45
-
-🧠 Average Mental Fatigue Score: 5.73
-
-📦 Average Resource Allocation: 4.48
-
-🎖 Designation Levels: 0 – 5
-
-🔗 Correlation Analysis
-
-🔴 Strong correlation found
-
-Designation ↔ Resource Allocation: 0.878
-
-🟠 Mental fatigue shows moderate positive correlation with burnout
-
-👥 Demographic Insights
-
-👩 Female: 9,747
-
-👨 Male: 8,843
-
-🏭 Company Type Distribution
-
-Service: 12,174
-
-Product: 6,416
-
-📊 Visualizations
-
-📌 Missing values heatmap
-📌 Correlation matrix heatmap
-📌 Bar chart: Company Type vs Designation
-📌 Histogram: Gender distribution
-📌 Bar & pie charts: Gender vs Designation
-
-🎯 Key Findings
-
-✔ Burnout increases with:
-
-Higher designation level
-
-Higher mental fatigue score
-
-Higher resource allocation
-
-✔ Senior employees experience higher burnout
-✔ Burnout patterns are similar across genders
-✔ Product & Service companies show similar trends
-
-🛠️ Technologies Used
-
-🔹 Python
-🔹 Pandas
-🔹 NumPy
-🔹 Matplotlib
-🔹 Seaborn
-🔹 Jupyter Notebook
-
-📁 Project Structure
-Employee_Burnout_Analysis/
-├── employee_burnout_analysis-AI 2.xlsx
-├── Employee_Burnout_Analysis.ipynb
-└── README.md
-
-🚀 How to Run
-pip install pandas numpy matplotlib seaborn openpyxl
-
-
-▶ Open the Jupyter Notebook
-▶ Run all cells sequentially
-
-🔮 Future Scope
-
-🚀 Machine Learning–based burnout prediction
-📊 Real-time monitoring dashboards
-🏢 Industry-wise comparative analysis
-
-📞 Contact
-
-👤 Ashish Kumar
-📧 ashishkumarmjl011@gmail.com
-
-📱 +91 9431649783
-
-⭐ If you find this project useful, don’t forget to star the repository!
+⭐ If you find this project useful, please consider giving it a star!
