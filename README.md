@@ -69,14 +69,11 @@ I am **Ashish Kumar**, a Data Science and AI enthusiast, passionate about **data
 - Pie chart for gender distribution  
 - Histograms for numeric variables  
 
-*(Add more screenshots in `images/` folder and reference here for better visualization)*
 <img width="589" height="432" alt="image" src="https://github.com/user-attachments/assets/dcef23ae-fba6-44f7-9163-a4c6c03924cd" />
-
-
 
 ---
 
-## 🧩 How to Run Locally
+### 🧩 How to Run Locally
 1. Clone the repository:
 ```bash
 git clone https://github.com/Ashish943164/Portfolio.git
@@ -84,18 +81,24 @@ Navigate to the project folder
 
 Run the Python script employee_burnout_analysis.py or open it in Jupyter Notebook
 
-🔮 Future Improvements
+---
+
+### 🔮 Future Improvements
 Predictive modeling for burnout risk using Machine Learning
 
 Interactive dashboards for HR decision-making
 
 Incorporate more datasets for broader analysis
 
-📬 Contact
+---
+
+### 📬 Contact
 Ashish Kumar
 📧 Email: ashishkumarmjl011@gmail.com
 💻 GitHub: https://github.com/Ashish943164
 🌐 Portfolio: https://ashish943164.github.io/Portfolio/
+
+---
 
 ⭐ If you find this project useful, please consider giving it a star!
 
