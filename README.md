@@ -81,7 +81,7 @@ I am **Ashish Kumar**, a Data Science and AI enthusiast, passionate about **data
 git clone https://github.com/Ashish943164/Portfolio.git
 Navigate to the project folder
 
-Run the Python script employee_burnout_analysis.py or open in Jupyter Notebook
+Run the Python script employee_burnout_analysis.py or open it in Jupyter Notebook
 
 🔮 Future Improvements
 Predictive modeling for burnout risk using Machine Learning
@@ -97,3 +97,5 @@ Ashish Kumar
 🌐 Portfolio: https://ashish943164.github.io/Portfolio/
 
 ⭐ If you find this project useful, please consider giving it a star!
+
+---
